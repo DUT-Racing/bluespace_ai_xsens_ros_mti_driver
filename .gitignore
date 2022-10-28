@@ -2,3 +2,4 @@
 *.o
 *.dpp
 *.a
+build/

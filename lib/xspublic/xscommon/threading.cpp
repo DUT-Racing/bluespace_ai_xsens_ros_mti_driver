@@ -383,8 +383,8 @@ void StandardThread::stopThread(void) noexcept
 	//			return;
 	//	}
 	//#else
-	while (isAlive())
-		xsYield();
+	// while (isAlive())
+	// 	xsYield();
 	//#endif
 	if (pthread_join(m_thread, NULL))
 	{
